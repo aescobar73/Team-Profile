@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { title } = require('process');
+// const { title } = require('process');
 
 inquirer
     .prompt([
@@ -54,7 +54,7 @@ inquirer
         </body>
         </html>`
 
-        fs.appendFile('team.html', (teamHtml), (err) => {
+        fs.appendFile('./dist/team.html', (teamHtml), (err) => {
                 err ? console.error(err) : console.log('Team Created!')
             });
 
@@ -111,7 +111,7 @@ inquirer
             </div>
             </html>`
 
-            fs.appendFile('team.html', (teamHtml2), (err) => {
+            fs.appendFile('./dist/team.html', (teamHtml2), (err) => {
                     err ? console.error(err) : console.log('Team Created!')
                 });
 
@@ -171,7 +171,7 @@ inquirer
                     </div>
                     </html>`
 
-                    fs.appendFile('team.html', (teamHtml3), (err) => {
+                    fs.appendFile('./dist/team.html', (teamHtml3), (err) => {
                             err ? console.error(err) : console.log('Team Created!')
                         });
 
