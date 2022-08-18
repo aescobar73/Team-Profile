@@ -19,7 +19,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+- [Contributions](#contributions)
 - [Criteria](#Accepted-Criteria)
 - [Test](#tests)
 - [Question](#questions)
@@ -60,6 +60,12 @@
 
         Classes were created so that we may run tests and make sure our functions were working correctly before being deployed.
 
+<br>
+<br>
+
+## Contributions
+
+The HTML page was styled with the help of [Bootstrap](https://getbootstrap.com/)
 
 <br>
 
@@ -88,3 +94,5 @@
 ## Test being Ran and Passing
 
 ![Tests](./assets/images/test.jpg)
+
+
